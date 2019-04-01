@@ -53,4 +53,5 @@ var el = yo`<div class="container">
 		}) */
 require('./homepage');
 require('./signup');
+require('./signin');
 page();
