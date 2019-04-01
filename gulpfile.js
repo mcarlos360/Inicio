@@ -5,6 +5,7 @@ var babelify= require('babelify');
 var browserify= require('browserify');
 var source= require('vinyl-source-stream');
 var watchify= require('watchify');
+
 gulp.task('styles', () => {
 	return gulp
 		.src('index.scss')
@@ -23,7 +24,7 @@ function compile(watch){
 	var bundle = watchify(browserify('./src/index.js', {debug: true}));
 	
 	function rebundle(){
-		bundle /*        */
+		bundle 
 		.transform(babelify)
 		.bundle()
 		.pipe(source('index.js'))
