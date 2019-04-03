@@ -8,7 +8,7 @@ var signinForm = yo`		<div class="col s12 m7">
 										<form class="signin-form">
 											<div class="section">
 												<a class="btn btn-tw hiden-on-small-only">Iniciar sesión con Twitter</a>
-												<a class="btn btn-tw hide-on-med-and-up">Iniciar sesión</a>
+												<a class="btn btn-tw hide-on-med-and-up"><i class="fab fa-twitter"></i>Iniciar sesión</a>
 												<!--div class="divider"></div-->
 												<div class="section">
 													<input type="text" name="username" placeholder="Nombre de usuario" />

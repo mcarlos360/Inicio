@@ -9,7 +9,7 @@ var signupForm = yo`		<div class="col s12 m7">
 											<h2>Registrate</h2>
 											<div class="section">
 												<a class="btn btn-tw hiden-on-small-only">Iniciar sesión con Twitter</a>
-												<a class="btn btn-tw hide-on-med-and-up">Iniciar sesión</a>
+												<a class="btn btn-tw hide-on-med-and-up"><i class="fab fa-twitter"></i>Iniciar sesión</a>
 												<!--div class="divider"></div-->
 												<div class="section">
 													<input type="email" name="email" placeholder="Correo electrónico" />

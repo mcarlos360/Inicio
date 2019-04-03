@@ -6541,14 +6541,15 @@ body {
   font-size: 12px; }
 
 .login-box,
-.signup-box {
+.signup-box,
+.signin-box {
   background-color: white;
   border: 1px solid #edeeee;
   border-radius: 3px;
   padding: 10px 0;
   text-align: center; }
 
-.signup-box .Inicio {
+.Inicio {
   color: #009999;
   font-family: Oleo Script;
   font-size: 42PX; }
@@ -6570,3 +6571,22 @@ body {
 
 .signup-form .btn.btn-signup, .signup-form .btn-signup.btn-large, .signup-form .btn-signup.btn-small {
   background-color: #009999; }
+
+.signin-form {
+  width: 65%;
+  margin: 0 auto; }
+
+.signin-form .btn.btn-tw, .signin-form .btn-tw.btn-large, .signin-form .btn-tw.btn-small {
+  background-color: #33ccff;
+  font-size: .9em; }
+
+.signin-form .btn.btn-tw:hover, .signin-form .btn-tw.btn-large:hover, .signin-form .btn-tw.btn-small:hover {
+  background-color: #2d6599; }
+
+.signin-form .btn.btn-signin, .signin-form .btn-signin.btn-large, .signin-form .btn-signin.btn-small {
+  background-color: #009999; }
+
+.header {
+  background-color: #009999;
+  box-shadow: none;
+  border-bottom: 1px splid #edeeee; }

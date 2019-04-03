@@ -22,7 +22,8 @@ body {
 }
 
 .login-box,
-.signup-box {
+.signup-box,
+.signin-box {
 	background-color: white;
 	border: 1px solid #edeeee;
 	border-radius: 3px;
@@ -30,7 +31,7 @@ body {
 	text-align: center;
 }
 
-.signup-box .Inicio {
+.Inicio {
 	color: #009999;
 	font-family: Oleo Script;
 	font-size: 42PX;
@@ -56,4 +57,26 @@ body {
 } 
 .signup-form .btn.btn-signup {
 	background-color: #009999; 	
+}
+
+.signin-form {
+	width: 65%;
+	margin: 0 auto;
+}
+
+.signin-form .btn.btn-tw {
+	background-color: #33ccff;
+	font-size: .9em;
+}
+
+.signin-form .btn.btn-tw:hover {
+	background-color: #2d6599;
+} 
+.signin-form .btn.btn-signin {
+	background-color: #009999; 	
+}
+.header {
+	background-color: #009999;
+	box-shadow:none;
+	border-bottom: 1px splid #edeeee;
 }
