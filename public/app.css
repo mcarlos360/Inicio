@@ -6530,9 +6530,6 @@ body {
   color: #125688;
   font-family: Montserrat; }
 
-#main-container {
-  margin: 30px auto; }
-
 .phone {
   max-width: 100%; }
 
@@ -6590,3 +6587,9 @@ body {
   background-color: #009999;
   box-shadow: none;
   border-bottom: 1px splid #edeeee; }
+
+.timeline {
+  padding: 30px 0; }
+
+.landing {
+  margin: 30px auto; }
